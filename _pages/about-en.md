@@ -1,6 +1,6 @@
 ---
 permalink: /en/
-title: "Shuai Chen 陈帅"
+title: "Shuai Chen's Homepage"
 author_profile: true
 lang: en
 ---
@@ -11,7 +11,7 @@ lang: en
 
 # Shuai Chen 陈帅
 
-**Algorithm Engineer** · Xiaomi Corporation · XiaoAI Algorithm Strategy (Multimodal LLM Team)
+**Algorithm Engineer** · Xiaomi Corporation · XiaoAI Algorithm Strategy
 
 📧 [shuai_chen@stu.xidian.edu.cn](mailto:shuai_chen@stu.xidian.edu.cn) · 📍 Beijing, China  
 🔗 [Google Scholar](https://scholar.google.com/citations?user=MfHFGkoAAAAJ&hl=en) · [GitHub](https://github.com/Andrewchenxd) · [CV](/en/cv/)
@@ -20,34 +20,22 @@ lang: en
 
 ## About
 
-I am **Shuai Chen**, an **Algorithm Engineer** at Xiaomi's XiaoAI team (full-time since **July 2026**). I am completing my M.S. in Computer Science & Technology (Discipline **A-**) at **Xidian University**, after a B.S. in Artificial Intelligence. From **February 2025 to September 2025**, I interned on the same team, working on **GUI multimodal content understanding** for XiaoAI.
+I am **Shuai Chen**, an M.S. student in Computer Science & Technology at **Xidian University**, currently working as an **Algorithm Engineer** on Xiaomi's XiaoAI team (full-time since **July 2026**). From **February 2025 to September 2025**, I interned on the same team, working on **GUI multimodal content understanding** for XiaoAI.
 
 My research and engineering focus includes:
 
 - **Multimodal LLMs (M-LLM)**: fine-tuning, distillation, and reprogramming (GPT-2 / LLaMA-3.2 / BERT / Qwen2.5-VL)
 - **Reinforcement Learning (RL)**: GRPO and off-policy improvements; reward and loss design (ScreenR1-SFT / ScreenR1-COT)
-- **Agents / System Prompt Learning**: GUI agents, system-prompt preloading, and skill routing
+- **Agent / System Prompt Learning**: agent self-evolution algorithms, training-free prompt optimization
 - **Cognitive Radio Signal processing (RSC)**: signal classification, time–frequency feature fusion, and specific emitter identification
 
 **Academic metrics**: **6 SCI papers** (several as student first author) · Google Scholar citations **77** · h-index **6** · i10-index **3** · **1 invention patent**
 
 ---
 
-## Research Interests
-
-| Area | Keywords |
-|------|----------|
-| **M-LLM** | Qwen2.5-VL, distillation, LoRA, signal / token reprogramming |
-| **RL** | GRPO, off-policy RL, reward design, slow-thinking CoT |
-| **Agent** | GUI agents, on-screen information extraction, System Prompt Learning |
-| **RSC** | Cognitive radio, time–frequency fusion, modulation classification, emitter identification |
-| **Applications** | Smart cockpit / on-screen assistants / electromagnetic foundation models / remote-sensing change detection |
-
----
-
 ## Experience
 
-### Xiaomi Corporation · XiaoAI Algorithm Strategy (Multimodal LLM Team)
+### Xiaomi · XiaoAI
 
 **Algorithm Engineer** · `Jul 2026 – present` (full-time)  
 **Algorithm Intern** · `Feb 2025 – Sep 2025`
@@ -87,12 +75,12 @@ In on-screen scenarios (smartphone, tablet, smart cockpit, etc.), extract **13 t
 
 | Period | University | Major | Degree |
 |--------|------------|-------|--------|
-| Sep 2023 – present | Xidian University (Project 211) | Computer Science & Technology (Discipline A-) | M.S. |
+| Sep 2023 – present | Xidian University (Project 211) | Computer Science & Technology (A-) | M.S. |
 | Sep 2019 – Jun 2023 | Xidian University (Project 211) | Artificial Intelligence | B.S. |
 
-**Honors**: Top 10% undergraduate GPA · National Scholarship · Nominee, Xidian University President's Award · First Prize, University Mathematical Modeling Contest · Huawei Industry–Education Scholarship · **National First Prize** (Physical Category), Beidou Cup National Youth Science & Technology Innovation Competition
+**Honors**: Top 10% undergraduate GPA · National Scholarship · **Nominee, Xidian University President's Award** · First Prize, University Mathematical Modeling Contest · Huawei Industry–Education Scholarship · **National First Prize** (Physical Category), Beidou Cup National Youth Science & Technology Innovation Competition
 
-**Campus experience**: academic exchange with the University of Tokyo (Mar 2023 – present) · mathematical modeling (university / national / MCM) · Xidian Stand-up Comedy Club · National College Student Innovation & Entrepreneurship Training Program (smart agriculture + hyperspectral analysis)
+**Campus experience**: academic exchange with the University of Tokyo (**Mar 2023 – Jun 2026**) · mathematical modeling (university / national / MCM) · Xidian Stand-up Comedy Club · National College Student Innovation & Entrepreneurship Training Program (smart agriculture + hyperspectral analysis)
 
 ---
 
