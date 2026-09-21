@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Publications"
+permalink: /en/publications/
+author_profile: true
+lang: en
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">Full list also on <a href="{{site.author.googlescholar}}">Google Scholar</a>. 中文版见 <a href="{{ site.baseurl }}/publications/">论文</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+<p>
+  <b>Metrics</b>: Citations 77 · h-index 6 · i10-index 3 · SCI papers 6+
+</p>
+
+{% assign pub_categories = "manuscripts|Journal Articles,conferences|Conferences & Preprints" | split: "," %}
+{% for pair in pub_categories %}
+  {% assign parts = pair | split: "|" %}
+  {% assign cat_key = parts[0] %}
+  {% assign cat_title = parts[1] %}
+  {% assign title_shown = false %}
+  {% for post in site.publications reversed %}
+    {% if post.category != cat_key %}
+      {% continue %}
+    {% endif %}
+    {% unless title_shown %}
+      <h2>{{ cat_title }}</h2><hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

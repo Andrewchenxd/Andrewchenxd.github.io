@@ -1,8 +1,9 @@
 ---
 layout: archive
-title: "简历 CV"
+title: "简历"
 permalink: /cv/
 author_profile: true
+lang: zh
 redirect_from:
   - /resume
 ---

@@ -1,15 +1,22 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
+# Header navigation order.
+# Chinese (default site) and English (/en/) menus.
 
 main:
-  - title: "主页 Home"
+  - title: "主页"
     url: /
 
-  - title: "论文 Publications"
+  - title: "论文"
     url: /publications/
 
-  - title: "简历 CV"
+  - title: "简历"
     url: /cv/
+
+main_en:
+  - title: "Home"
+    url: /en/
+
+  - title: "Publications"
+    url: /en/publications/
+
+  - title: "CV"
+    url: /en/cv/

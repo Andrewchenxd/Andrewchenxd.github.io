@@ -1,23 +1,59 @@
 {% include base_path %}
+{% if page.url == '/en/' or page.url == '/en/index.html' or page.url contains '/en/' %}
+  {% assign is_en = true %}
+  {% assign nav_items = site.data.navigation.main_en %}
+  {% assign home_url = '/en/' %}
+{% else %}
+  {% assign is_en = false %}
+  {% assign nav_items = site.data.navigation.main %}
+  {% assign home_url = '/' %}
+{% endif %}
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
-            <a href="{{ base_path }}/">{{ site.title }}</a>
-          </li>
-          {% for link in site.data.navigation.main %}
+          {% if is_en %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/en/' or page.url == '/en/index.html' %}selected{% endif %}">
+              <a href="{{ base_path }}/en/">Shuai Chen 陈帅</a>
+            </li>
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
+              <a href="{{ base_path }}/">{{ site.title }}</a>
+            </li>
+          {% endif %}
+          {% for link in nav_items %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' and link.url != '/en/' %}selected{% endif %}">
               <a href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
+          <li id="lang-toggle" class="masthead__menu-item persist tail">
+            {% if is_en %}
+              {% if page.url contains '/publications' %}
+                {% assign other_lang_url = '/publications/' %}
+              {% elsif page.url contains '/cv' %}
+                {% assign other_lang_url = '/cv/' %}
+              {% else %}
+                {% assign other_lang_url = '/' %}
+              {% endif %}
+              <a href="{{ base_path }}{{ other_lang_url }}" title="切换到中文" aria-label="Switch to Chinese"><span class="lang-label">中</span></a>
+            {% else %}
+              {% if page.url contains '/publications' %}
+                {% assign other_lang_url = '/en/publications/' %}
+              {% elsif page.url contains '/cv' %}
+                {% assign other_lang_url = '/en/cv/' %}
+              {% else %}
+                {% assign other_lang_url = '/en/' %}
+              {% endif %}
+              <a href="{{ base_path }}{{ other_lang_url }}" title="Switch to English" aria-label="Switch to English"><span class="lang-label">EN</span></a>
+            {% endif %}
+          </li>
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>

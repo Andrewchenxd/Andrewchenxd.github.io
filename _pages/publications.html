@@ -1,21 +1,21 @@
 ---
 layout: archive
-title: "论文 Publications"
+title: "论文"
 permalink: /publications/
 author_profile: true
+lang: zh
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">完整列表也可在 <a href="{{site.author.googlescholar}}">Google Scholar</a> 查看。 Full list on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">完整列表也可在 <a href="{{site.author.googlescholar}}">Google Scholar</a> 查看。English: <a href="{{ site.baseurl }}/en/publications/">Publications</a>.</div>
 {% endif %}
 
 {% include base_path %}
 
 <p>
-  <b>学术指标 Metrics</b>：Citations 77 · h-index 6 · i10-index 3 · SCI papers 6+
+  <b>学术指标</b>：引用 77 · h-index 6 · i10-index 3 · SCI 论文 6+
 </p>
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
