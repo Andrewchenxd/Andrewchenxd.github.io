@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "陈帅的个人主页"
+title: "个人主页"
 author_profile: true
 lang: zh
 redirect_from:
@@ -23,7 +23,7 @@ redirect_from:
 
 ## 关于我
 
-我是**陈帅**，西安电子科技大学计算机科学与技术硕士，现任**小米小爱团队算法工程师**（2026 年 7 月入职，正式员工）。此前于 2025.02–2025.09 在小米小爱算法策略实习，参与小爱同学 GUI 多模态内容理解。
+我是**陈帅**，西安电子科技大学计算机科学与技术硕士，现任**小米小爱团队算法工程师**（2026 年 7 月入职，正式员工）。此前于2025年在小米小爱算法策略实习，参与小爱同学 GUI 多模态内容理解。
 
 我的研究与工程方向集中在：
 
@@ -32,7 +32,7 @@ redirect_from:
 - **Agent / System Prompt Learning**：Agent自进化算法、Training Free Prompt Optimize
 - **认知无线电（RSC）**：信号分类、时频特征融合、辐射源个体识别
 
-**学术指标**：SCI 论文 6 篇（多篇学生一作）· Google Scholar 引用 **77** · h-index **6** · i10-index **3** · 发明专利 1 项
+**学术指标**：SCI 论文 6 篇（多篇学生一作）· Google Scholar 引用 **78** · h-index **6** · i10-index **3** · 发明专利 1 项
 
 ---
 

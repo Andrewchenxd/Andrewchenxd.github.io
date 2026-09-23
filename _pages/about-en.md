@@ -1,6 +1,6 @@
 ---
 permalink: /en/
-title: "Shuai Chen's Homepage"
+title: "Homepage"
 author_profile: true
 lang: en
 ---
@@ -20,7 +20,7 @@ lang: en
 
 ## About
 
-I am **Shuai Chen**, an M.S. student in Computer Science & Technology at **Xidian University**, currently working as an **Algorithm Engineer** on Xiaomi's XiaoAI team (full-time since **July 2026**). From **February 2025 to September 2025**, I interned on the same team, working on **GUI multimodal content understanding** for XiaoAI.
+I am **Shuai Chen**, an M.S. student in Computer Science & Technology at **Xidian University**, currently working as an **Algorithm Engineer** on Xiaomi's XiaoAI team (full-time since **July 2026**). From 2025, I interned on the same team, working on **GUI multimodal content understanding** for XiaoAI.
 
 My research and engineering focus includes:
 
@@ -29,7 +29,7 @@ My research and engineering focus includes:
 - **Agent / System Prompt Learning**: agent self-evolution algorithms, training-free prompt optimization
 - **Cognitive Radio Signal processing (RSC)**: signal classification, time–frequency feature fusion, and specific emitter identification
 
-**Academic metrics**: **6 SCI papers** (several as student first author) · Google Scholar citations **77** · h-index **6** · i10-index **3** · **1 invention patent**
+**Academic metrics**: **6 SCI papers** (several as student first author) · Google Scholar citations **78** · h-index **6** · i10-index **3** · **1 invention patent**
 
 ---
 
